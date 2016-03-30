@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>成都银行-领导驾驶舱</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/jquery.ui.datepicker.css">
+<script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script src="js/jquery.ui.core.js"></script>
+<script src="js/jquery.ui.widget.js"></script>
+<script src="js/jquery.ui.datepicker.js"></script>
+<script>
+	$(function() {
+		$( "#startdate" ).datepicker();
+		$( "#enddate" ).datepicker();
+	});
+	</script>
+</head>
+
+<body><!-- #BeginLibraryItem "/Library/header.lbi" --><div class="header">
+	<div class="top">
+    	<a href="index.html"><img src="images/logo.png" class="logo"></a>
+        <div class="top_txt">
+        	<p>下午好，冯继，欢迎登录内部运营门户<a href="#">修改个人资料</a><a href="#" class="line">安全退出</a></p>
+            <p>2012 年 06 月 13 日 星期五&nbsp;&nbsp;16：33：08<a href="#" class="line">个人收藏</a></p>
+        </div>
+        <div class="clear"></div>
+        <ul class="menu_ul">
+        <h2><a href="index.html"><img src="images/home_btn.gif"></a></h2>
+    	<li><span><a href="gr_index.html">个人门户</a></span></li>
+        <li class="subli"><span><a href="department.html">部门门户</a></span> 
+        <div style="left:-108px; width:300px; overflow:hidden">
+        	<ul class="sub1">
+            	<ol><a href="#">人力资源部</a></ol>
+            	<ol><a href="#">信息技术部</a></ol>
+            	<ol><a href="#">个人金融部</a></ol>
+            	<ol><a href="#">国际业务部</a></ol>
+            	<ol><a href="#">风险管理部</a></ol>
+            	<ol><a href="#">信用审批部</a></ol>
+            </ul>
+            <ul class="sub1">
+            	<ol><a href="#">公司业务部</a></ol>
+            	<ol><a href="#">稽核审计部</a></ol>
+            	<ol><a href="#">会计结算部</a></ol>
+            	<ol><a href="#">计划财务部</a></ol>
+            	<ol><a href="#">行政管理部</a></ol>
+            	<ol><a href="#">资金部</a></ol>
+            </ul>
+            <ul class="sub2">
+            	<ol><a href="#">电子银行部</a></ol>
+            	<ol><a href="#">机构管理部</a></ol>
+            	<ol><a href="#">合规管理部</a></ol>
+            	<ol><a href="#">投资银行部</a></ol>
+            	<ol><a href="#">中小企业部</a></ol>
+            	<ol><a href="#">资产保全部</a></ol>
+            </ul>
+        </div>
+        </li>
+        <li class="subli"><span><a href="branch.html">分支行门户</a></span>
+         <div style="left:-90px; width:340px; overflow:hidden">
+        	<ul class="sub3">
+            	<ol><a href="#">德盛</a></ol>
+            	<ol><a href="#">体育场 </a></ol>
+            	<ol><a href="#">华兴</a></ol>
+            	<ol><a href="#">锦江</a></ol>
+            	<ol><a href="#">沙湾</a></ol>
+            	<ol><a href="#">成华</a></ol>
+            	<ol><a href="#">广安</a></ol>
+            </ul>
+            <ul class="sub3">
+            	<ol><a href="#">金河</a></ol>
+            	<ol><a href="#">百花潭</a></ol>
+            	<ol><a href="#">科技</a></ol>
+            	<ol><a href="#">高新</a></ol>
+            	<ol><a href="#">青羊</a></ol>
+            	<ol><a href="#">金牛</a></ol>
+            	<ol><a href="#">眉山</a></ol>
+            </ul>
+            <ul class="sub3">
+            	<ol><a href="#">长顺</a></ol>
+            	<ol><a href="#">高升桥</a></ol>
+            	<ol><a href="#">琴台</a></ol>
+            	<ol><a href="#">武侯</a></ol>
+            	<ol><a href="#">崇州</a></ol>
+            	<ol><a href="#">龙泉驿</a></ol>
+            	<ol><a href="#">资阳</a></ol>
+            </ul>
+            <ul class="sub3">
+            	<ol><a href="#">金堂</a></ol>
+            	<ol><a href="#">蒲江</a></ol>
+            	<ol><a href="#">青白江</a></ol>
+            	<ol><a href="#">新都</a></ol>
+            	<ol><a href="#">温江</a></ol>
+            	<ol><a href="#">大邑</a></ol>
+            	<ol><a href="#">重庆</a></ol>
+            </ul>
+            <ul class="sub4">
+            	<ol><a href="#">新津</a></ol>
+            	<ol><a href="#">都江堰</a></ol>
+            	<ol><a href="#">郫县</a></ol>
+            	<ol><a href="#">邛崃</a></ol>
+            	<ol><a href="#">双流</a></ol>
+            	<ol><a href="#">彭州</a></ol>
+            	<ol><a href="#">西安</a></ol>
+            </ul>
+        </div>
+        </li>
+        <li><span><a href="#">领导驾驶舱</a></span></li>
+        <li><span><a href="#">关于我们</a></span></li>
+   		</ul>
+    </div>
+    
+</div><!-- #EndLibraryItem -->
+
+<div class="contaner_leader">
+	<div class="leazder_date">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="72" align="center">选择日期</td>
+        <td width="113" align="left"><input type="text" id="startdate"></td>
+        <td><input type="text" id="endtdate"></td>
+      </tr>
+    </table>
+
+    </div>
+    <div class="leazder_map">
+    	<a href="#" left="358" top="245">体育场<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="323" top="280">百花潭<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="413" top="292">高升桥<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="447" top="248">德盛<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="294" top="213">武侯<br /><img src="images/leader_ico1.png"></a>
+        <a href="#" left="275" top="265">科技<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="333" top="337">琴台<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="390" top="363">金河<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="438" top="350">锦江<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="464" top="298">资阳<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="514" top="280">成华<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="516" top="223">沙湾<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="407" top="171">华兴<br /><img src="images/leader_ico1.png"></a>
+        <a href="#" left="344" top="139">金牛<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="278" top="125">新都<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="256" top="171">郫县<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="233" top="230">高新<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="196" top="276">青羊<br /><img src="images/leader_ico1.png"></a>
+        <a href="#" left="196" top="348">温江<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="250" top="392">双流<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="311" top="390">新津<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="455" top="391">龙泉驿<br /><img src="images/leader_ico1.png"></a>
+        <a href="#" left="418" top="417">浦江<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="588" top="241">广安<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="634" top="280">长顺<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="338" top="60">金堂<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="260" top="76">都江堰<br /><img src="images/leader_ico1.png"></a>
+        <a href="#" left="325" top="10">彭州<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="105" top="293">祟州<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="106" top="400">大邑<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="98" top="438">邛崃<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="220" top="442">青白江<br /><img src="images/leader_ico1.png"></a>
+        <a href="#" left="212" top="490">眉山<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="670" top="116">西安<br /><img src="images/leader_ico2.png"></a>
+        <a href="#" left="745" top="403">重庆<br /><img src="images/leader_ico2.png"></a>
+        <div class="map_box">
+        	<h2 class="wryh f18 c000">眉山市分行</h2>
+            <dl>
+            	<dt>日期：20120625</dt>
+                <dd>单位：亿元</dd>
+                <dt class="c000">人民币存款余额</dt>
+                <dd class="c000">962.63</dd>
+                <dt class="c000">人民币贷款余额</dt>
+                <dd class="c000">419.08</dd>
+                <dt class="c000">人民币贷存比</dt>
+                <dd class="c000">0.44</dd>
+            </dl>
+        </div>
+    	<div class="leader_redme">
+        	<ul>
+            <li><img src="images/leader_ico2.png">表示其指标值连续几个周期上升</li>
+            <li><img src="images/leader_ico1.png">表示其指标值连续几个周期下降</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="leazder_zhi">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="82" align="center">选择分支行</td>
+        <td width="113" align="left"><select><option>眉山分支行</option></select></td>
+        <td width="60">选择业务</td>        
+        <td><select><option>存款业务</option></select></td>
+      </tr>
+    </table>
+    </div>
+    <div class="leader_zhu_bg">
+    <p class="c666">8,000<br />7,000<br />6,000<br />5,000<br />4,000<br />3,000<br />2,000<br />1,000<br />0</p>
+    </div>
+    <div class="leader_zhu_date">
+    	<ul>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <li><span>4.21</span></li>
+        <div class="clear"></div>
+        </ul>
+    </div>
+    <div class="zhu_redme">
+    	<ul>
+        	<li><img src="images/leader_red.gif">奋斗目标</li>
+            <li><img src="images/leader_green.gif">必保目标</li>
+        </ul>
+    </div>
+</div>
+<div class="foot">
+  <div class="foot_left">
+    <ul>
+      <h2><a href="#">外网链接</a></h2>
+      <li><a href="#">联系管理员</a></li>
+      <li><a href="#">内部邮件系统</a></li>
+      <li class="end"><a href="#">投诉与建议</a></li>
+    </ul>
+  </div>
+  <div class="foot_right"> &copy;&nbsp;&nbsp;2012&nbsp;&nbsp;成都银行&nbsp;&nbsp;版权所有&nbsp;&nbsp;蜀ICP备12000749号 </div>
+</div>
+</body>
+</html>
